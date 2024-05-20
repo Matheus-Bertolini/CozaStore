@@ -16,5 +16,7 @@ public class Tamanho
 
     [Required(ErrorMessage = "Favor, informe o nome.")]
     [StringLength(30, ErrorMessage = "O nome deve possuir no máximo 30 caracteres.")]
-    public string Nome { get; set; }        
+    public string Nome { get; set; }
+
+    public ICollection<Estoque> Estoque { get; set; } 
 }

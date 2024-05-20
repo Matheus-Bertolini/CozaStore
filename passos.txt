@@ -1,6 +1,14 @@
 Configurando o Git:
-git config --global user.name Rafael Roberto de Oliveira
+git config --global user.name "Rafael Roberto de Oliveira"
 git config --global user.email rafael.roberto200618@gmail.com
 
 Criar o projeto:
 dotnet new mvc -o Cozastore
+
+Ctrl + Shift + P
+Digite Nuget
+Pesquisar e Instalar:
+    - EntityFrameworkCore
+    - EntityFrameworkCore.Design
+    - EntityFrameworkCore.InMemory
+    - AspNet.Identity.EntityFrameworkCore
